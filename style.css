@@ -12,6 +12,18 @@ background-color: #0B1020;
 br{
     padding: 20px;
 }
+h2{
+   margin-left: 20px; 
+   margin-bottom: 20px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size: 30px;
+}
+p{
+    margin-left: 40px;
+    margin-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
 
 .heading{
     
@@ -178,4 +190,68 @@ ul{
 
 .skills-container{
     display: flex;
+    justify-content: space-between;
+}
+.arrow-mark{
+    margin-top: 60px;
+    font-size: 35px;
+
+}
+.HTML-card{
+    background-color: #E8F1FF;
+    color: #0F172A;
+    margin-left: 20px;
+    padding: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.HTML-card:hover{
+    transform: translateY(-8px);
+}
+.CSS-card{
+    background-color: #F3E8FF;
+    color: #581C87;
+     margin-left: 20px;
+    padding: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.CSS-card:hover{
+    transform: translateY(-8px);
+}
+.js-card{
+    background-color: #FEF9C3;
+    color: #854D0E;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.js-card:hover{
+     transform: translateY(-8px);
+}
+.responsive-d-card{
+    background-color: #ECFDF5;
+    color: #065F46;
+    margin-left: 20px;
+    padding: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.responsive-d-card:hover{
+    transform: translateY(-8px);
+}
+.deploy-card{
+    background-color:#FFF7ED ;
+    color: #9A3412;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+.deploy-card:hover{
+    transform: translateY(-8px);
 }
