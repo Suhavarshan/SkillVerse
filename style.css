@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+background-color: #0B1020;
+    color:white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+br{
+    padding: 20px;
+}
+
+.heading{
+    
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 40px;
+    padding: 20px;
+    
+}
+h1{
+    padding: 20px;
+}
+nav{
+
+
+    background-color: #17122B;
+    overflow: hidden;
+}
+
+.logo {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    float: left;
+    color: #F8FAFC;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 35px 22px;
+}
+
+.navlinks {
+    float: right;
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+}
+.navlinks ul li a{
+    margin-right: 50%;
+}
+ul{
+    padding:15px 22px ;
+}
+
+.navlinks li {
+    float: left;
+}
+
+
+.navlinks li a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: block;
+    color: #F8FAFC;
+    padding: 28px 20px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+
+.navlinks li a:hover {
+    background-color: #8B5CF6;
+}
+.web-dev{
+    display: flex;
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #2563EB;
+    width: 150px;
+    margin-top: 35px;
+    margin-left: 30px;
+    padding: 50px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    flex: 2;
+}
+.web-dev-b{
+    text-decoration: none;
+    background-color:#2563EB ;
+    display: flex;
+     margin-top: 15px;
+    margin-left: 30px;
+    padding: 40px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+
+}
+
+
+
+.card-txt{
+    font-size: xx-large;
+    position: absolute;
+    right:40px;
+    bottom: 10px;
+    color: #F8FAFC;
+         
+}
+.card-syb{
+    position: absolute;
+    bottom: 70px;
+    font-size: 50px;
+
+}
+.ai-dev{
+     
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #6D28D9;
+    width: 150px;
+    margin-top: 35px;
+    margin-left: 30px;
+    padding: 50px;
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+     flex: 2;
+
+    
+    
+
+}
+ 
+.ai-dev-b{
+     text-decoration: none;
+    background-color:#6D28D9 ;
+
+     margin-top: 15px;
+    margin-left: 30px;
+    padding: 40px;
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+}  
+.web-dev-b:hover, .web-dev:hover{
+    
+ transform: translateY(-8px);
+    
+}
+.ai-dev:hover,.ai-dev-b:hover{
+ transform: translateY(-8px);
+   
+}
+.game-dev{
+ position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #EA580C;
+    width: 150px;
+    margin-top: 35px;
+    margin-left: 30px;
+    padding: 50px;
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+  flex: 2;
+}
+.game-dev-b{
+      text-decoration: none;
+    background-color:#EA580C ;
+
+     margin-top: 15px;
+    margin-left: 30px;
+    padding: 40px;
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.game-dev:hover,.game-dev-b{
+    transform: translateY(-8px);
+  
+
+}
+
+.skills-container{
+    display: flex;
+}
